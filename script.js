@@ -453,7 +453,7 @@
       waMessage += '*Child Age:* ' + (age || '—') + '\n';
       waMessage += '*Message:* ' + (message || '—') + '\n';
 
-      var waUrl = 'https://wa.me/256772519128?text=' + encodeURIComponent(waMessage);
+      var waUrl = 'https://wa.me/256792554114?text=' + encodeURIComponent(waMessage);
       window.open(waUrl, '_blank');
 
       var confirmation = document.getElementById('academyConfirmation');
