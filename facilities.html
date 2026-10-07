@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facilities at Victory Soccer Arena — Turf, Floodlights, Restaurant &amp; More</title>
+  <meta name="description" content="Explore the complete Victory Soccer Arena facilities: artificial turf, floodlights, changing rooms, private lockers, free parking, wheelchair access, restaurant, bar and professional car wash in Kyanja, Kampala." />
+  <meta property="og:title" content="Facilities at Victory Soccer Arena" />
+  <meta property="og:description" content="A premium venue tour — every facility designed for the complete football experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://victorysoccerarena.com/facilities.html" />
+   <meta property="og:image" content="https://victorysoccerarena.com/assets/hero.jpg" />
+  <link rel="canonical" href="https://victorysoccerarena.com/facilities.html" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon.png">
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader__text">VICTORY SOCCER ARENA</div>
+  </div>
+
+  <div class="cursor" id="cursor"></div>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav__logo" aria-label="Victory Soccer Arena">VICTORY SOCCER ARENA</a>
+    <ul class="nav__links">
+      <li><a href="index.html" class="nav__link">Home</a></li>
+      <li><a href="about.html" class="nav__link">About</a></li>
+      <li><a href="facilities.html" class="nav__link active">Facilities</a></li>
+      <li><a href="academy.html" class="nav__link">Academy</a></li>
+      <li><a href="events.html" class="nav__link">Events</a></li>
+      <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+      <li><a href="contact.html" class="nav__link">Contact</a></li>
+    </ul>
+    <a href="booking.html" class="nav__cta">Book a Pitch</a>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><span class="theme-toggle__icon" aria-hidden="true">◐</span><span class="theme-toggle__text">Dark mode</span></button>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-menu__link">Home</a>
+    <a href="about.html" class="mobile-menu__link">About</a>
+    <a href="facilities.html" class="mobile-menu__link">Facilities</a>
+    <a href="academy.html" class="mobile-menu__link">Academy</a>
+    <a href="events.html" class="mobile-menu__link">Events</a>
+    <a href="gallery.html" class="mobile-menu__link">Gallery</a>
+    <a href="contact.html" class="mobile-menu__link">Contact</a>
+    <a href="booking.html" class="mobile-menu__cta">Book a Pitch</a>
+    <button class="mobile-theme-toggle" id="mobileThemeToggle" type="button" aria-label="Switch to dark mode"><span>◐</span> Dark mode</button>
+    <div class="mobile-menu__info">KYANJA • KAMPALA • OPEN 24/7</div>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="page-header__bg">
+      <img src="assets/overview.jpg" alt="Brightly lit soccer field at night under stadium floodlights" />
+    </div>
+    <div class="page-header__overlay"></div>
+    <div class="page-header__content">
+      <p class="page-header__eyebrow eyebrow">Facilities</p>
+      <h1 class="page-header__title display display-xl">
+        <span class="line"><span class="line-inner">Everything</span></span>
+        <span class="line"><span class="line-inner">on site.</span></span>
+      </h1>
+      <p class="page-header__sub body-lg">A complete venue designed around the game — and everything that comes with it.</p>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE FACILITY SHOWCASE -->
+  <section class="facility-showcase" style="padding-top: var(--space-2xl);">
+    <div class="facility-showcase__header">
+      <p class="eyebrow reveal" style="margin-bottom: 1rem;">Explore the venue</p>
+      <h2 class="facility-showcase__title display display-lg reveal-text">
+        <span class="line"><span class="line-inner">Hover to</span></span>
+        <span class="line"><span class="line-inner">explore.</span></span>
+      </h2>
+    </div>
+    <div class="facility-showcase__grid">
+      <div class="facility-showcase__list" id="facilityList">
+        <div class="facility-showcase__item active" data-img="0">
+          <span class="facility-showcase__num">01</span>
+          <span class="facility-showcase__name">Artificial Turf</span>
+        </div>
+        <div class="facility-showcase__item" data-img="1">
+          <span class="facility-showcase__num">02</span>
+          <span class="facility-showcase__name">Floodlights</span>
+        </div>
+        <div class="facility-showcase__item" data-img="2">
+          <span class="facility-showcase__num">03</span>
+          <span class="facility-showcase__name">Changing Rooms</span>
+        </div>
+        <div class="facility-showcase__item" data-img="3">
+          <span class="facility-showcase__num">04</span>
+          <span class="facility-showcase__name">Private Lockers</span>
+        </div>
+        <div class="facility-showcase__item" data-img="4">
+          <span class="facility-showcase__num">05</span>
+          <span class="facility-showcase__name">Free Parking</span>
+        </div>
+        <div class="facility-showcase__item" data-img="5">
+          <span class="facility-showcase__num">06</span>
+          <span class="facility-showcase__name">Wheelchair Access</span>
+        </div>
+        <div class="facility-showcase__item" data-img="6">
+          <span class="facility-showcase__num">07</span>
+          <span class="facility-showcase__name">Restaurant</span>
+        </div>
+        <div class="facility-showcase__item" data-img="7">
+          <span class="facility-showcase__num">08</span>
+          <span class="facility-showcase__name">Bar</span>
+        </div>
+        <div class="facility-showcase__item" data-img="8">
+          <span class="facility-showcase__num">09</span>
+          <span class="facility-showcase__name">Car Wash</span>
+        </div>
+      </div>
+      <div class="facility-showcase__visual" id="facilityVisual">
+        <img src="https://images.pexels.com/photos/15521639/pexels-photo-15521639.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of green artificial soccer field with boundary line" class="active" loading="lazy" />
+        <img src="assets/hero.jpg" alt="Brightly lit soccer field at night under floodlights" loading="lazy" />
+        <img src="https://images.pexels.com/photos/3621124/pexels-photo-3621124.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Athlete stretching before soccer practice" loading="lazy" />
+        <img src="https://images.pexels.com/photos/5247207/pexels-photo-5247207.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Soccer player stretching on field preparing for game" loading="lazy" />
+        <img src="assets/carpark.jpg" alt="Car being cleaned at car wash station" loading="lazy" />
+        <img src="https://images.pexels.com/photos/15781060/pexels-photo-15781060.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of soccer goal on green field" loading="lazy" />
+        <img src="assets/resturan.jpg" alt="Elegant dining setup with gourmet food" loading="lazy" />
+        <img src="https://images.pexels.com/photos/14666551/pexels-photo-14666551.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warm bar setting with backlit bottles" loading="lazy" />
+        <img src="assets/carwash4.jpg" alt="Person washing car with sponge deep cleaning" loading="lazy" />
+        <div class="facility-showcase__caption">
+          <div class="facility-showcase__caption-label" id="facilityLabel">Artificial Turf</div>
+          <div class="facility-showcase__caption-text" id="facilityCaption">Professional-grade turf for a true game experience, day or night.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAILED FACILITIES LIST -->
+  <section class="facilities-list">
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="https://images.pexels.com/photos/15521639/pexels-photo-15521639.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Green artificial soccer field with white boundary line" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">01 / Facility</div>
+        <h2 class="facilities-list__name">Artificial Turf</h2>
+        <p class="facilities-list__desc body-lg">Professional-grade artificial turf designed for performance and durability. A consistent playing surface that holds up to every game, every day, all year round.</p>
+      </div>
+    </div>
+
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="assets/hero.jpg" alt="Soccer field at night illuminated by floodlights" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">02 / Facility</div>
+        <h2 class="facilities-list__name">Floodlights</h2>
+        <p class="facilities-list__desc body-lg">Full pitch illumination that keeps the game going after dark. Because the best football often happens when the sun goes down.</p>
+      </div>
+    </div>
+
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="assets/gymni.jpg" alt="Athlete stretching before soccer practice" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">03 / Facility</div>
+        <h2 class="facilities-list__name">Changing Rooms</h2>
+        <p class="facilities-list__desc body-lg">Clean, private changing rooms for pre-match preparation and post-match freshening up. Space to get ready, space to recover.</p>
+      </div>
+    </div>
+
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="assets/gymnis.jpg" alt="Soccer player stretching on field" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">04 / Facility</div>
+        <h2 class="facilities-list__name">Private Lockers</h2>
+        <p class="facilities-list__desc body-lg">Secure storage for your valuables while you're on the pitch. Play with peace of mind knowing your belongings are safe.</p>
+      </div>
+    </div>
+
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="assets/carpark.jpg" alt="Car being cleaned at car wash station" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">05 / Facility</div>
+        <h2 class="facilities-list__name">Free Parking</h2>
+        <p class="facilities-list__desc body-lg">Ample on-site parking available at no cost. Drive in, park, and walk straight onto the pitch — no hassle, no extra cost.</p>
+      </div>
+    </div>
+
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="https://images.pexels.com/photos/15781060/pexels-photo-15781060.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of soccer goal on green field" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">06 / Facility</div>
+        <h2 class="facilities-list__name">Wheelchair Access</h2>
+        <p class="facilities-list__desc body-lg">Accessible facilities designed so everyone can enjoy the Victory experience. The venue is built to welcome all visitors.</p>
+      </div>
+    </div>
+
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="assets/resturan.jpg" alt="Elegant dining setup with gourmet food" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">07 / Facility</div>
+        <h2 class="facilities-list__name">Restaurant</h2>
+        <p class="facilities-list__desc body-lg">Fresh food served on site. From quick post-match bites to full meals with friends, the kitchen is part of the experience.</p>
+      </div>
+    </div>
+
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="https://images.pexels.com/photos/14666551/pexels-photo-14666551.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warm bar setting with backlit bottles and evening ambiance" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">08 / Facility</div>
+        <h2 class="facilities-list__name">Bar</h2>
+        <p class="facilities-list__desc body-lg">A fully stocked bar with drinks for every taste. The perfect spot to celebrate a win, debate a match, or simply unwind.</p>
+      </div>
+    </div>
+
+    <div class="facilities-list__item reveal">
+      <div class="facilities-list__image">
+        <img src="assets/carwash2.jpg" alt="Person washing car with sponge in garage" loading="lazy" />
+      </div>
+      <div class="facilities-list__content">
+        <div class="facilities-list__num">09 / Facility</div>
+        <h2 class="facilities-list__name">Car Wash</h2>
+        <p class="facilities-list__desc body-lg">Professional car wash services on site. Hand your keys over, play your game, and drive away in a clean vehicle. That's the Victory way.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="final-cta">
+    <div class="final-cta__bg">
+      <img src="assets/carwash.jpg" alt="Modern stadium during a night football match" loading="lazy" />
+    </div>
+    <div class="final-cta__overlay"></div>
+    <div class="final-cta__content">
+      <h2 class="final-cta__title display display-xl reveal-text">
+        <span class="line"><span class="line-inner">See it</span></span>
+        <span class="line"><span class="line-inner">in person.</span></span>
+      </h2>
+      <p class="final-cta__sub body-lg reveal reveal-delay-2">Book a game and experience every facility for yourself.</p>
+      <div class="final-cta__actions reveal reveal-delay-3">
+        <a href="booking.html" class="btn btn--primary">Book Your Pitch <span class="arrow">&rarr;</span></a>
+        <a href="gallery.html" class="btn btn--ghost">View Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand-col">
+        <div class="footer__brand">VICTORY<span>.</span></div>
+        <p class="footer__tagline">Kyanja Ring Road, Kampala. Open 24/7. Football, food, friends and everything that makes a great day out.</p>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Explore</div>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="facilities.html">Facilities</a></li>
+          <li><a href="academy.html">Academy</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Visit</div>
+        <ul>
+          <li><a href="booking.html">Book a Pitch</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="tel:+256772519128">+256772519128</a></li>
+          <li><a href="https://wa.me/256772519128" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Hours</div>
+        <ul>
+          <li>Open 24 Hours</li>
+          <li>7 Days a Week</li>
+          <li>365 Days a Year</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">&copy; 2026 Victory Soccer Arena. All rights reserved. Developed By Aklon</div>
+      <div class="footer__social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">X</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/256772519128" target="_blank" rel="noopener" class="whatsapp-float" id="whatsappFloat" aria-label="WhatsApp us">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.359.101 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 005.737 1.456h.005c6.582 0 11.942-5.359 11.945-11.892a11.821 11.821 0 00-3.479-8.462"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
